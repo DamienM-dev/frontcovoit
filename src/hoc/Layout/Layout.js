@@ -1,7 +1,15 @@
 import React from "react";
 
+import Header from "../../Components/Header/Header"
+
 function Layout(props) {
- return props.children
+ return (
+    <>
+      <Header />
+       {props.children}
+
+    </>
+ );
 }
 
 export default Layout

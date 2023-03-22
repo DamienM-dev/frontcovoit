@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-tailwind": "tailwindcss build -i src/App.css -o public/styles.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

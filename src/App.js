@@ -10,7 +10,6 @@ import ListeTrajets from './Containers/ListeTrajets/ListeTrajets';
 import Trajet from './Containers/ListeTrajets/Trajet/Trajet';
 import Publier from './Containers/Publier/Publier';
 import RechercheTrajet from './Containers/RechercheTrajet/RechercheTrajet';
-import Rerservation from './Containers/Rerservation/Rerservation';
 import Reservation from './Containers/Rerservation/Rerservation';
 
 
