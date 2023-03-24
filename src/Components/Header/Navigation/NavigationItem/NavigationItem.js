@@ -1,10 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import classes from './NavigationItem.module.css';
 
 function NavigationItem(props) {
+    console.log(props)
     return (
-        <li>
-            <Link to={props.link}>{props.children}</Link>
+        <li className="text-center">
+            
+            <NavLink exact={props.exact} to={props.to} activeclassname={classes.active}>{props.children}</NavLink>
         </li>
     );
 

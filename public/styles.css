@@ -559,11 +559,72 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(58 152 185 / var(--tw-bg-opacity));
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(238 238 238 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:text-right {
+    text-align: right;
+  }
 }

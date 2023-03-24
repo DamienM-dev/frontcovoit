@@ -3,7 +3,11 @@ import Navigation from '../../Components/Header/Navigation/Navigation'
 
 function Header() {
     return (
-        <Navigation />
+        <header>
+            <nav>
+            <Navigation />
+            </nav>
+        </header>
     )
 }
 
