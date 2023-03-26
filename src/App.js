@@ -12,6 +12,7 @@ import RechercheTrajet from './Containers/RechercheTrajet/RechercheTrajet';
 import Reservations from './Containers/Reservations/Reservations';
 import Reservation from './Containers/Reservations/Reservation/Reservation';
 import ErrorPage from './Components/ErrorPage';
+import Authentification from './Containers/Authentification/Authentification';
 
 
 
@@ -21,6 +22,7 @@ function App() {
    <Layout>
       <Routes>
         <Route exact path="/"  Component={Home} />
+        <Route exact path="/authentification" Component={Authentification} />
         <Route exact path="/compte"  Component={Compte} />
         <Route exact path='/contact' Component={Contact} />
         <Route exact path="/listeTrajet"  Component={ListeTrajets} />
